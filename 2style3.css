@@ -6,7 +6,7 @@
 .home {
     margin: 0;
     background-image: url("pictures/back.png") ;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-size: cover;
     background-attachment: fixed;
@@ -68,7 +68,7 @@
     font-size: 20px;
     font-family: Garamond;
     background-color: #DEDEDE;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
 }
@@ -112,4 +112,28 @@ p {
 .flashy-title {
     color: #fff; /* White text */
     text-shadow: 0 0 4px #00FF00, 0 0 4px #00FF00, 0 0 12px #00FF00;
+}
+
+.2container {
+    max-width: 1200px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.box1 {
+    flex: 1;
+    border: 2px solid black;
+    padding: 0px;
+    font-size: 20px;
+    font-family: Garamond;
+    background-color: #DEDEDE;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
 }
