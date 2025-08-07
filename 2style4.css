@@ -1,0 +1,144 @@
+.html {
+    height: 100%;
+    width: 100%;
+}
+
+.home {
+    margin: 0;
+    background-image: url("pictures/back.png") ;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.mrgs {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.mrgs img {
+    max-width: 100%;
+    height: auto;
+}
+
+.slideshow {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar {
+    top: 0;
+    background-color: #977f4a;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    color: #1a4484;
+    text-decoration: none;
+    padding: 13px 33px;
+    border-radius: 11px;
+    transition: background-color 0.4s;
+    font-family: Verdana;
+}
+
+.navbar a:hover {
+    background-color: #005900;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+}
+
+.box {
+    flex: 1;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Garamond;
+    background-color: #DEDEDE;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.webtitle h1 {
+    font-family: "Georgia";
+    color: #ffffff;
+    font-size: 350%;
+    text-align: center;
+}
+
+h1 {
+    color: #1CB80F;
+    font-family: Monaco;
+    font-size: 300%;
+    text-align: center;
+}
+
+h2 {
+    font-family: Garamond;
+    font-size: 250%;
+    text-align: center;
+    color: #1CB80F;
+}
+
+h3 {
+    font-family: Garamond;
+    font-size: 150%;
+    text-align: center;
+    color: #1CB80F;
+}
+
+p {
+    font-size: 20px;
+    font-family: Garamond;
+    color: #000000;
+    text-align: center;
+    max-width: 100%;
+}
+
+.flashy-title {
+    color: #fff; /* White text */
+    text-shadow: 0 0 4px #00FF00, 0 0 4px #00FF00, 0 0 12px #00FF00;
+}
+
+.video-box {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.2container {
+    max-width: 1200px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.box1 {
+    flex: 1;
+    border: 2px solid black;
+    padding: 0px;
+    font-size: 20px;
+    font-family: Garamond;
+    background-color: #DEDEDE;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
+}
