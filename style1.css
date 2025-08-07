@@ -6,7 +6,7 @@
 .home {
     margin: 0;
     background-image: url("pictures/back.png") ;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-size: cover;
     background-attachment: fixed;
@@ -73,7 +73,7 @@ h2 {
     font-family: Garamond;
     font-size: 200%;
     text-align: center;
-    color: #B02209;
+    color: #A80000;
 }
 
 h4 {
@@ -88,4 +88,28 @@ p {
     color: #ffffff;
     text-align: center;
     max-width: 100%;
+}
+
+.2container {
+    max-width: 1200px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.box1 {
+    flex: 1;
+    border: 2px solid black;
+    padding: 0px;
+    font-size: 20px;
+    font-family: Garamond;
+    background-color: #DEDEDE;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
 }
