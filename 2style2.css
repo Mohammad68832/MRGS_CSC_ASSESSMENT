@@ -1,0 +1,56 @@
+.html {
+    height: 100%;
+    width: 100%;
+}
+
+.home {
+    margin: 0;
+    background-image: url("pictures/back.png") ;
+    background-color: rgba(0, 0, 0, 0.35);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.mrgs {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.mrgs img {
+    max-width: 100%;
+    height: auto;
+}
+
+.slideshow {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar {
+    top: 0;
+    background-color: #977f4a;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    color: #1a4484;
+    text-decoration: none;
+    padding: 13px 33px;
+    border-radius: 11px;
+    transition: background-color 0.4s;
+    font-family: Verdana;
+}
+
+.navbar a:hover {
+    background-color: #005900;
+    color: #ffffff;
+}
