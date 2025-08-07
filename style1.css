@@ -5,27 +5,30 @@
 
 .home {
     margin: 0;
-    background-image: url("back.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url('pictures/back.png') bottom center no-repeat,
+                url('pictures/back.png') top center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
 }
 
 .mrgs {
   display: flex;
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
 
 .mrgs img {
-  max-width: 100%
+  max-width: 100%;
   height: auto;
 }
 
 .slideshow {
     justify-content: center;
+    text-align: center;
     align-items: center;
 }
 
@@ -50,4 +53,27 @@
 .navbar a:hover {
     background-color: #005900;
     color: #ffffff;
+}
+
+.webtitle h1 {
+    font-family: "Georgia";
+    color: #ffffff;
+    font-size: 350%;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial;
+    text-align: center;
+    color: #B02209;
+
+
+}
+h4 {
+    font-family: Arial;
+    text-align: center;
+    color: #CC260A;
+}
+
+p {
 }
