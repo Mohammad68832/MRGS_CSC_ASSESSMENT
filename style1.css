@@ -1,8 +1,10 @@
+/* Entire webpage size */
 .html {
     height: 100%;
     width: 100%;
 }
 
+/* Entire body styling */
 .home {
     margin: 0;
     background-image: url("pictures/back.png") ;
@@ -13,6 +15,7 @@
     background-repeat: no-repeat;
 }
 
+/* Specific aligning only for the mrgs logo */
 .mrgs {
     display: flex;
     max-width: 1000px;
@@ -21,18 +24,22 @@
     align-items: center;
 }
 
+/* Sizing for the mrgs image */
 .mrgs img {
     max-width: 100%;
     height: auto;
 }
 
+/* Alignment for the Google Slides */
 .slideshow {
     justify-content: center;
     text-align: center;
     align-items: center;
 }
 
+/* Positioning for the Navigation Bar */
 .navbar {
+    position: sticky;
     top: 0;
     background-color: #977f4a;
     display: flex;
@@ -41,6 +48,7 @@
     align-items: center;
 }
 
+/* Positioning for the Navigation Bar targeting all anchor elements*/
 .navbar a {
     color: #1a4484;
     text-decoration: none;
@@ -50,12 +58,13 @@
     font-family: Verdana;
 }
 
+/* What happens when you hover on the navbar buttons */
 .navbar a:hover {
     background-color: #005900;
     color: #ffffff;
 }
 
-
+/* h1 element contained within the webtitle class */
 .webtitle h1 {
     font-family: "Georgia";
     color: #ffffff;
@@ -63,25 +72,36 @@
     text-align: center;
 }
 
+/* Glowing title */
+.flashy-title {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px #00FF00, 0 0 14px #00FF00, 0 0 18px #00FF00;
+}
+
+/* Styling on the h1 element */
 h1 {
     font-family: Arial;
     text-align: center;
-    color: #B02209;
+    color: #1CB80F;
 }
 
+/* Styling on the h2 element */
 h2 {
     font-family: Garamond;
     font-size: 200%;
     text-align: center;
-    color: #A80000;
+    color: #1CB80F;
 }
 
+/* Styling on the h4 element */
 h4 {
     font-family: Arial;
     text-align: center;
-    color: #CC260A;
+    color: #1CB80F;
 }
 
+/* Styling on the paragraph element */
 p {
     font-size: 20px;
     font-family: Garamond;
@@ -90,8 +110,9 @@ p {
     max-width: 100%;
 }
 
+/* Styling for the size of the footer container */
 .2container {
-    max-width: 1200px;
+    max-width: 12000000000px;
     display: flex;
     height: 100%;
     width: 100%;
@@ -99,6 +120,7 @@ p {
     text-align: center;
 }
 
+/* Styling for boxes contained in the container */
 .box1 {
     flex: 1;
     border: 2px solid black;
@@ -111,5 +133,28 @@ p {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    max-width: 1200px;
+    max-width: 120000000px;
+}
+
+/* Coding to change the size of the website to fit the size of the device being used */
+@media (max-width: 768px) {
+    body {
+        font-size: 10px
+        padding: 5px
+    }
+    .slideshow iframe {
+        width: 750;
+        height: 445;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 6px;
+        padding: 3px;
+    }
+    .slideshow iframe {
+        width: 450;
+        height: 267;
+    }
 }
